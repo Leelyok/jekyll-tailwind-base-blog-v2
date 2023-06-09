@@ -317,17 +317,18 @@ nav a:hover {
   }
   
   
-  .mobile-menu {
-    display: none; 
+  .mobile-menu,.login-menu {
+    display: block; 
     background-color: var(--featured);
-    padding: 5%;
+    padding: 0%;
     position: fixed; 
+    height: 0vh;
     z-index:3;
-    top: 0;
-    bottom: 0;
+    top: 0vh;
     left: 0;
     right: 0;
     text-align: center;
+    overflow: hidden;
   }
   
   .mobile-menu a {
